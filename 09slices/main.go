@@ -47,4 +47,13 @@ func main() {
 	sort.Ints(highscore)
 	fmt.Println("sorted highscore = ", highscore)
 	fmt.Println(sort.IntsAreSorted(highscore))
+
+	y := make([]int, 4)
+	y[0] = 234
+	y[1] = 543
+	y[2] = 123
+	fmt.Println("y = ", y)
+	index := 2
+	y = append(y[:index], y[index+1:]...)
+	fmt.Println("y = ", y)
 }
