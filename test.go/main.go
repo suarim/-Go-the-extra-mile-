@@ -38,5 +38,14 @@ func main() {
 	fmt.Println("The value of array is:", x)
 	sort.Strings(x)
 	fmt.Println("The value of array is:", x)
+	user := User{
+		name: "Suarim",
+		age:  21,
+	}
+	fmt.Println(user)
+}
 
+type User struct {
+	name string
+	age  int
 }

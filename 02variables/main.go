@@ -10,6 +10,8 @@ func main() {
 	var username string = "John Doe"
 	var isbool bool = true
 	var isint uint64 = 100
+	var x = 5
+	fmt.Println(x)
 	var osfloat float64 = 670.0
 	fmt.Println("Variables in Go")
 	fmt.Println(username)
